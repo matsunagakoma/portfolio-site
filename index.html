@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - エンジニア</title>
+    <meta name="description" content="A personal portfolio showcasing web development skills and projects.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Ambient Background Blobs -->
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <!-- Glassmorphism Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <a href="#" class="logo">Portfolio.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section hero-section animate-on-scroll">
+            <div class="hero-content">
+                <div class="profile-img-container">
+                    <img src="assets/profile.jpg" alt="Profile Picture" class="profile-img">
+                    <div class="img-glow"></div>
+                </div>
+                <div class="hero-text">
+                    <h1 class="gradient-text">Hi, I'm <span class="name">koma</span></h1>
+                    <h2 class="role">エンジニア</h2>
+                    <p class="tagline">Crafting beautiful, performant, and dynamic web experiences.</p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn primary-btn">Learn More</a>
+                        <a href="#contact" class="btn secondary-btn glass-panel">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section glass-panel animate-on-scroll slide-up">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-desc">
+                I specialize in building dynamic, user-centric web applications. With a strong foundation in modern web
+                technologies and a keen eye for aesthetics, I strive to create experiences that are both visually
+                stunning and highly functional.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section glass-panel animate-on-scroll slide-up">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, Python</p>
+                </div>
+                <div class="skill-card">
+                    <h3>UI/UX</h3>
+                    <p>Figma, Micro-animations, Glassmorphism</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <p>Git, Docker, CI/CD</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section glass-panel animate-on-scroll slide-up">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-desc">Interested in working together or just want to say hi? Feel free to reach out to me
+                anytime.</p>
+            <div class="contact-cta">
+                <a href="mailto:hello@example.com" class="btn primary-btn">Say Hello 👋</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>&copy; 2026 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
