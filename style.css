@@ -287,6 +287,75 @@ main {
     color: var(--text-muted);
 }
 
+.mt-40 {
+    margin-top: 40px;
+}
+
+/* Timeline */
+.timeline-title {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 25px;
+}
+
+.timeline-items {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline-items::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 6px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -30px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    box-shadow: 0 0 10px rgba(129, 140, 248, 0.6);
+}
+
+.timeline-date {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+}
+
+.timeline-role {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+.timeline-desc {
+    font-size: 1rem;
+    color: var(--text-muted);
+}
+
 /* Skills Grid */
 .skills-grid {
     display: grid;
