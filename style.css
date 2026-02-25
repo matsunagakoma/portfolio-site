@@ -325,6 +325,25 @@ main {
     margin-top: 30px;
 }
 
+.contact-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#fb-link {
+    color: var(--text-color);
+    background: rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.4);
+}
+
+#fb-link:hover {
+    background: rgba(59, 130, 246, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
 /* Footer */
 .glass-footer {
     text-align: center;
